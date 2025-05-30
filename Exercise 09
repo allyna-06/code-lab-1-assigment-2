@@ -1,0 +1,10 @@
+def greet():
+    print("Hello")  # Displays the word "Hello" on the console
+
+def start():
+    greet()  # Calls the greet() function to execute its contents
+
+# The following checks whether this script is being run directly (not imported as a module)
+if __name__ == "__main__":
+    start()  # Executes the start() function if the script is run directly
+            
