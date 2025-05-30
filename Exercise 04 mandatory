@@ -1,0 +1,10 @@
+# Primitive Mandatory Question: Ask the user for the capital of France
+
+# Prompt the user and store their response in 'user_response'
+user_response = input("What is the capital of France? ").strip().lower()
+
+# Check if the response is correct (case-insensitive match for 'paris')
+if user_response == "paris":
+    print("The answer is correct.")
+else:
+    print("The answer is wrong.")
