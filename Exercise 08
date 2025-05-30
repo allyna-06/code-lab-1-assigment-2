@@ -1,0 +1,11 @@
+# List of registered users
+user_list = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]
+
+# Name to be searched in the list
+target_name = "Sam"
+
+# Check if the name exists in the list and print appropriate message
+if target_name in user_list:
+    print(f"{target_name} is in the list!")
+else:
+    print(f"{target_name} is not in the list.")
