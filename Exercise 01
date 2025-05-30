@@ -1,0 +1,12 @@
+# Assign the first word to the variable first_word  
+first_word = "coding"
+
+# Assign the second word to the variable second_word
+second_word = "is"
+
+# Assign the third word to the variable third_word
+third_word = "cool"
+
+# Concatenate all variables with spaces to form a sentence, then print the variable sentence
+sentence = first_word + " " + second_word + " " + third_word
+print(sentence)
