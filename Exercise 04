@@ -1,0 +1,80 @@
+# Quiz: Capital cities of European countries
+
+# Ask the user the capital of France and ignore capitalization in the response
+answer_france = input("What is the capital of France? ").lower()
+
+# Check if the answer is 'paris'
+if answer_france == "paris":
+    print("The answer is correct")
+else:
+    print("The answer is wrong")
+
+# Ask the capital of Albania
+answer_albania = input("What is the capital of Albania? ").lower()
+if answer_albania == "tirana":
+    print("The answer is correct")
+else:
+    print("The answer is wrong.")
+
+# Ask the capital of Andorra
+answer_andorra = input("What is the capital of Andorra? ").lower()
+if answer_andorra == "andorra la vieja":
+    print("The answer is correct.")
+else:
+    print("The answer is wrong")
+
+# Ask the capital of Armenia
+answer_armenia = input("What is the capital of Armenia? ").lower()
+if answer_armenia == "yerevan":
+    print("The answer is correct.")
+else:
+    print("The answer is wrong.")
+
+# Ask the capital of Austria
+answer_austria = input("What is the capital of Austria? ").lower()
+if answer_austria == "vienna":
+    print("The answer is correct.")
+else:
+    print("The answer is wrong")
+
+# Ask the capital of Azerbaijan
+answer_azerbaijan = input("What is the capital of Azerbaijan? ").lower()
+if answer_azerbaijan == "baku":
+    print("The answer is correct.")
+else:
+    print("The answer is wrong")
+
+# Ask the capital of Belarus
+answer_belarus = input("What is the capital of Belarus? ").lower()
+if answer_belarus == "minsk":
+    print("The answer is correct")
+else:
+    print("The answer is wrong")
+
+# Ask the capital of Belgium
+answer_belgium = input("What is the capital of Belgium? ").lower()
+if answer_belgium == "brussels":
+    print("The answer is correct.")
+else:
+    print("The answer is wrong")
+
+# Ask the capital of Finland
+answer_finland = input("What is the capital of Finland? ").lower()
+if answer_finland == "helsinki":
+    print("The answer is correct")
+else:
+    print("The answer is wrong")
+
+# Ask the capital of Denmark
+answer_denmark = input("What is the capital of Denmark? ").lower()
+if answer_denmark == "copenhagen":
+    print("The answer is correct")
+else:
+    print("The answer is wrong")
+
+# Ask the capital of Cyprus
+answer_cyprus = input("What is the capital of Cyprus? ").lower()
+if answer_cyprus == "nicosia":
+    print("The answer is correct")
+else:
+    print("The answer is wrong.")
