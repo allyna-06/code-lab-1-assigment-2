@@ -1,0 +1,33 @@
+# This function checks whether a given integer is even or odd
+def check_even_odd(value):
+    if value % 2 == 0:  # Executes if the value is divisible by 2
+        return f"The number {value} is even."
+    else:  # Executes if the value is not divisible by 2
+        return f"The number {value} is odd."
+
+# This is the main routine that drives the program
+def run_program():
+    try:
+        # Inform the user that the program has started
+        print("Program initiated. Awaiting user input...")
+        
+        # Prompt the user to input an integer
+        user_input = int(input("Enter a number: "))
+        
+        # Determine if the input is even or odd and store the outcome
+        outcome = check_even_odd(user_input)
+        
+        # Notify user that computation is complete
+        print("Check complete. Displaying result...")
+        
+        # Display the result to the user
+        print(outcome)
+    
+    except ValueError:  # Handles the case where input is not a valid integer
+        print("Invalid input! Please enter an integer value.")
+
+# Ensures the script runs only when executed directly (not when imported)
+if __name__ == "__main__":
+    # Inform the user that the script is running directly
+    print("Script is executing directly...")
+    run_program()
