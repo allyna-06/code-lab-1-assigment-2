@@ -1,0 +1,21 @@
+# Prompt the user to enter their full name and city of origin
+full_name = input("Enter your full name: ")
+city_of_origin = input("Enter your hometown: ")
+
+# Continuously prompt the user for their age until a valid integer is entered
+while True:
+    try:
+        user_age = int(input("Enter your age: "))  # Attempt to convert input to an integer
+        break  # Exit the loop if conversion is successful
+    except ValueError:
+        print("Invalid input! Please enter a valid number for your age.")  # Display an error if input is not a valid integer
+
+# Store the collected data in a dictionary
+user_details = {
+    "name": full_name,
+    "hometown": city_of_origin,
+    "age": user_age
+}
+
+# Display the stored information in a formatted output
+print(f"\nName: {user_details['name']}\nHometown: {user_details['hometown']}\nAge: {user_details['age']}")
