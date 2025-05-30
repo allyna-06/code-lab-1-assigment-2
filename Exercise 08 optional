@@ -1,0 +1,11 @@
+# List containing a group of names as string values
+name_list = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]
+
+# Prompting the user to input a name they want to search for
+input_name = input("Enter the name you want to search for: ")
+
+# Check if the entered name exists in the list and respond accordingly
+if input_name in name_list:
+    print(f"{input_name} is found in the list!")  # Message displayed if the name is in the list
+else:
+    print(f"{input_name} is not found in the list.")  # Message displayed if the name is not in the list
