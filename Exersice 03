@@ -1,0 +1,9 @@
+# Store personal details in the dictionary variable 'person_info'
+person_info = {
+    "name": "Aleena Susan",
+    "hometown": "United Arab Emirates",
+    "age": 18
+}
+
+# Print the values stored in the 'person_info' dictionary in a formatted way
+print(f"Name: {person_info['name']}\nHometown: {person_info['hometown']}\nAge: {person_info['age']}")
