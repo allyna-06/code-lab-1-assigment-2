@@ -1,0 +1,11 @@
+# Assign the value 8 to the variable num1
+num1 = 8
+
+# Assign the value 10 to the variable num2
+num2 = 10
+
+# Add the values of num1 and num2 and store the result in total
+total = num1 + num2
+
+# Print the result stored in total
+print(total)
